@@ -1,1 +1,28 @@
-{}
+{
+  "permissions": {
+    "deny": [
+      "Read(**/node_modules/**)",
+      "Read(**/dist/**)",
+      "Read(**/*.log)",
+      "Read(**/assets/images/**)",
+      "Read(**/_originaux/**)",
+      "Read(**/*.min.js)",
+      "Read(**/package-lock.json)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR/.claude/hooks/check-blocking-review.sh\"",
+            "timeout": 10,
+            "statusMessage": "Vérification des revues bloquantes..."
+          }
+        ]
+      }
+    ]
+  }
+}

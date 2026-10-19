@@ -1,0 +1,10 @@
+{
+  "name": "agence",
+  "private": true,
+  "description": "Scripts utilitaires pour le système multi-agents (captures d'écran des reviewers).",
+  "devDependencies": {
+    "playwright": "^1.48.0",
+    "lighthouse": "^12.2.0",
+    "serve": "^14.2.0"
+  }
+}

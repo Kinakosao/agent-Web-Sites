@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /workspace/
+
+Sitemap: https://boulangerie-martin.example/sitemap.xml

@@ -1,0 +1,5 @@
+# Domaine provisoire : remplacer par le domaine définitif [DOMAINE À FOURNIR].
+User-agent: *
+Allow: /
+
+Sitemap: https://jagerbar-lille.example/sitemap.xml

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boulangerie Martin, pain artisanal et viennoiseries à Lyon</title>
+  <meta name="description" content="Boulangerie artisanale au 12 rue des Lilas, Lyon 1er : pains, viennoiseries et pâtisseries. Horaires d'ouverture, adresse et téléphone.">
+  <link rel="canonical" href="https://boulangerie-martin.example/">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Boulangerie Martin, pain artisanal et viennoiseries à Lyon">
+  <meta property="og:description" content="Boulangerie artisanale au 12 rue des Lilas, Lyon 1er : pains, viennoiseries et pâtisseries. Horaires d'ouverture, adresse et téléphone.">
+  <meta property="og:url" content="https://boulangerie-martin.example/">
+  <meta property="og:image" content="https://boulangerie-martin.example/assets/images/hero.webp">
+  <meta property="og:image:alt" content="Pains dorés posés sur une table en bois dans la boulangerie">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:locale" content="fr_FR">
+  <link rel="preload" href="assets/fonts/lora-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container site-header-inner">
+      <a class="site-logo" href="./">Boulangerie Martin</a>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <ul>
+          <li><a href="#presentation">La boulangerie</a></li>
+          <li><a href="#horaires">Horaires</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <picture>
+        <source media="(max-width: 640px)" srcset="assets/images/hero-mobile.webp">
+        <img src="assets/images/hero.webp" width="1920" height="823" fetchpriority="high" alt="Pains dorés posés sur une table en bois dans la boulangerie">
+      </picture>
+      <div class="hero-inner container">
+        <div class="hero-content">
+          <h1 id="hero-title">Boulangerie Martin</h1>
+          <p class="hero-tagline">Pains, viennoiseries et pâtisseries au cœur de Lyon 1er</p>
+          <div class="button-group">
+            <a class="button button--primary" href="#horaires">Voir les horaires</a>
+            <a class="button button--secondary" href="tel:+33199001234">Appeler le 01 99 00 12 34</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="presentation" class="section" aria-labelledby="presentation-title">
+      <div class="container">
+        <h2 id="presentation-title">Notre boulangerie</h2>
+        <div class="split">
+          <p>Chaque jour, nous pétrissons, façonnons et cuisons nos pains et nos viennoiseries sur place, dans notre boulangerie du 1er arrondissement de Lyon. Venez y retrouver le plaisir d'un produit fait à la main, du petit-déjeuner au goûter.</p>
+          <picture>
+            <source media="(max-width: 640px)" srcset="assets/images/atelier-mobile.webp">
+            <img src="assets/images/atelier.webp" width="1200" height="900" loading="lazy" alt="Illustration de l'atelier du boulanger : pâte, farine et fournée de pains">
+          </picture>
+        </div>
+        <ul class="card-grid">
+          <li class="card">
+            <img src="assets/icons/pain.svg" width="48" height="48" loading="lazy" alt="">
+            <h3>Les pains</h3>
+            <p>Baguettes, pains de campagne et pains spéciaux, cuits tout au long de la journée.</p>
+          </li>
+          <li class="card">
+            <img src="assets/icons/croissant.svg" width="48" height="48" loading="lazy" alt="">
+            <h3>Les viennoiseries</h3>
+            <p>Croissants, pains au chocolat et autres viennoiseries pour bien commencer la journée.</p>
+          </li>
+          <li class="card">
+            <img src="assets/icons/gateau.svg" width="48" height="48" loading="lazy" alt="">
+            <h3>Les pâtisseries</h3>
+            <p>Gâteaux et douceurs de la boulangerie, à partager ou à savourer sur le pouce.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="horaires" class="section section--alt" aria-labelledby="horaires-title">
+      <div class="container">
+        <h2 id="horaires-title">Horaires d'ouverture</h2>
+        <table class="hours-table">
+          <caption class="visually-hidden">Horaires d'ouverture de la boulangerie</caption>
+          <tbody>
+            <tr class="is-closed"><th scope="row">Lundi</th><td>Fermé</td></tr>
+            <tr><th scope="row">Mardi</th><td>6h30 – 19h30</td></tr>
+            <tr><th scope="row">Mercredi</th><td>6h30 – 19h30</td></tr>
+            <tr><th scope="row">Jeudi</th><td>6h30 – 19h30</td></tr>
+            <tr><th scope="row">Vendredi</th><td>6h30 – 19h30</td></tr>
+            <tr><th scope="row">Samedi</th><td>6h30 – 19h</td></tr>
+            <tr><th scope="row">Dimanche</th><td>7h – 13h</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title">Nous trouver</h2>
+        <ul class="contact-list">
+          <li>
+            <img src="assets/icons/adresse.svg" width="24" height="24" loading="lazy" alt="">
+            <div>
+              <address>12 rue des Lilas<br>69001 Lyon</address>
+              <a href="https://www.openstreetmap.org/search?query=12%20rue%20des%20Lilas%2069001%20Lyon">Voir l'adresse sur OpenStreetMap</a>
+            </div>
+          </li>
+          <li>
+            <img src="assets/icons/telephone.svg" width="24" height="24" loading="lazy" alt="">
+            <a href="tel:+33199001234">01 99 00 12 34</a>
+          </li>
+          <li>
+            <img src="assets/icons/email.svg" width="24" height="24" loading="lazy" alt="">
+            <a class="email-link" href="mailto:contact@boulangerie-martin.example">contact@boulangerie-martin.example</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Boulangerie Martin SARL — 12 rue des Lilas, 69001 Lyon</p>
+      <p><a href="mentions-legales.html">Mentions légales</a></p>
+      <p class="footer-note">© 2026 Boulangerie Martin</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
